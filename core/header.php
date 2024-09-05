@@ -19,6 +19,7 @@
         </div>
 
         <nav>
+
                 <ul id="MenuItems" style="max-height: 0px;">
                     <li><a href="">FILM AGENDA</a></li>
                     <li><a href="">ALLE VESTIGINGEN</a></li>
