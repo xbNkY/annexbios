@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 
 <div class="header">
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
+    <title>AnnexBios - Maarssen</title>
+</head>
+<body class="body">
+  
+    <div class="header">
+>>>>>>> 34c0aa7f2916132d4501aae2a0c15b0af397fea2
     <div class="container">
         <div class="navbar">
-            <div class="logo">
+            <div class="header-logo">
                 <img src="assets/images/logo/logox.png" width="300px">
             </div>
 
@@ -15,9 +30,11 @@
             </nav>
             <img src="assets/images/menu.png" class="menu-icon" onclick="menutoggle()">
 
-
-
-
         </div>
     </div>
 </div>
+<<<<<<< HEAD
+=======
+</body>
+</html>
+>>>>>>> 34c0aa7f2916132d4501aae2a0c15b0af397fea2
