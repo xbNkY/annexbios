@@ -1,29 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <title>AnnexBios - Maarssen</title>
-</head>
-<body>
-    
-        <div class="header-container">
-            <div class="header-white-bar">
-                <div class="header-logo">
-                    <img src="../assets/images/logo/logo_hoofd.png">
-                    <div class="navbar">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="header-navbar">
 
-            </div>
-        </div>
+<link rel="stylesheet" href="assets/css/header.css">
+
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="assets/images/logo/logo_hoofd.png" width="125px">
+      </div>
+
+      <nav>
+        <ul id="MenuItems" style="max-height: 0px;">
+          <li><a href="">FILM AGENDA</a></li>
+          <li><a href="">ALLE VESTIGINGEN</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
+      <img src="assets/images/menu.png" class="menu-icon" onclick="menutoggle()">
 
 
 
 
-</body>
-</html>
+    </div>
+  </div>
+</div>
