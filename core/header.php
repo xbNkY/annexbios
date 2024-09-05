@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="assets/css/header.css">
 
 <div class="header">
     <div class="container">
