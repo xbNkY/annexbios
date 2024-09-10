@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<link rel="stylesheet" href="./assets/css/header.css">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-</style>
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
+    <title>AnnexBios - Maarssen</title>
+</head>
 
 <body class="body">
 
@@ -55,9 +56,6 @@
         <button type="button" class="button">BESTEL TICKETS</button>
     </div>
 
+</div>
 
 
-
-</body>
-
-</html>
