@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+h_body {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -12,12 +12,12 @@ body {
 
 
 
-.header {
+.h_header {
     background-color: rgb(255, 255, 255);
     height: 161px;
 }
 
-.navbar {
+.h_navbar {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -25,7 +25,7 @@ body {
 
 }
 
-nav {
+h_nav {
     flex: 1;
     text-align: right;
 
@@ -33,27 +33,27 @@ nav {
 }
 
 
-nav ul {
+h_nav ul {
     display: inline-block;
     list-style-type: none;
 }
 
-nav ul li {
+h_nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
 
-a {
+h_a {
     text-decoration: none;
     color: black;
 }
 
-p {
+h_p {
     color: black;
 }
 
-.container {
+.h_container {
     max-width: 12000px;
     margin: auto;
     padding-left: 10px;
@@ -62,7 +62,7 @@ p {
 
 
 
-img {
+h_img {
     width: 441.92px;
     height: 104.36px;
     margin-left: 171px;
@@ -70,7 +70,7 @@ img {
 
 
 
-.second-header {
+.h_second-header {
 
     background-color: #9E2629;
     height: 91px;
@@ -79,7 +79,7 @@ img {
 
 }
 
-.h1 {
+.h_h1 {
 
     font-size: 25px;
     color: white;
@@ -89,7 +89,7 @@ img {
 
 }
 
-.button {
+.h_button {
     width: 158px;
     height: 37px;
     background: rgb(255, 255, 255);
@@ -105,7 +105,7 @@ img {
 
 
 
-.dropbtn {
+.h_dropbtn {
     background-color: #C3575A;
     color: white;
     padding: 10px 20px;
@@ -119,20 +119,20 @@ img {
 }
 
 
-.arrow {
+.h_arrow {
     width: 40px;
     margin-left: 80px;
     transition: transform 0.3s;
 }
 
 
-.dropdown {
+.h_dropdown {
     position: relative;
     display: inline-block;
 }
 
 
-.dropdown-content {
+.h_dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -142,7 +142,7 @@ img {
 }
 
 
-.dropdown-content a {
+.h_dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -150,21 +150,21 @@ img {
 }
 
 
-.dropdown-content a:hover {
+.h_dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
 
-.dropdown:hover .dropdown-content {
+.h_dropdown:hover .dropdown-content {
     display: block;
 }
 
 
-.dropdown:hover .arrow {
+.h_dropdown:hover .arrow {
     transform: rotate(180deg);
 
 }
 
-.dropdown:hover .dropbtn {
+.h_dropdown:hover .dropbtn {
     background-color: #767676;
 }
