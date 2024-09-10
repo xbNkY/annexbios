@@ -4,49 +4,56 @@
     box-sizing: border-box;
 }
 
-
-
-
-.header{
- 
-    
-    background-color: rgb(255, 255, 255);
+h_body {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
-.navbar {
+
+
+
+.h_header {
+    background-color: rgb(255, 255, 255);
+    height: 161px;
+}
+
+.h_navbar {
     display: flex;
     align-items: center;
     padding: 20px;
-    
+    font-size: 25px;
+
 }
 
-nav {
+h_nav {
     flex: 1;
     text-align: right;
 
 
 }
 
-nav ul {
+
+h_nav ul {
     display: inline-block;
     list-style-type: none;
 }
 
-nav ul li {
+h_nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
 
-a {
+h_a {
     text-decoration: none;
     color: black;
 }
 
-p {
+h_p {
     color: black;
 }
 
-.container {
+.h_container {
     max-width: 12000px;
     margin: auto;
     padding-left: 10px;
@@ -54,6 +61,110 @@ p {
 }
 
 
-img{
-    margin-left: 50px;
+
+h_img {
+    width: 441.92px;
+    height: 104.36px;
+    margin-left: 171px;
+}
+
+
+
+.h_second-header {
+
+    background-color: #9E2629;
+    height: 91px;
+    display: flex;
+    align-items: center;
+
+}
+
+.h_h1 {
+
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+    margin-left: 171px;
+
+
+}
+
+.h_button {
+    width: 158px;
+    height: 37px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: #9E2629;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+
+
+.h_dropbtn {
+    background-color: #C3575A;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 262px;
+    height: 46px;
+}
+
+
+.h_arrow {
+    width: 40px;
+    margin-left: 80px;
+    transition: transform 0.3s;
+}
+
+
+.h_dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.h_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.h_dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.h_dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.h_dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.h_dropdown:hover .arrow {
+    transform: rotate(180deg);
+
+}
+
+.h_dropdown:hover .dropbtn {
+    background-color: #767676;
 }
