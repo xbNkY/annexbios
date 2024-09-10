@@ -11,9 +11,6 @@
 </head>
 
 <body class="body">
-
-
-
     <div class="header">
         <div class="container">
             <div class="navbar">
