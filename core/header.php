@@ -12,13 +12,11 @@
 </head>
 
 <body class="body">
-
-
-
     <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="header-logo">
+
                     <img src="assets/images/logo/logox.png">
                 </div>
 
@@ -31,6 +29,7 @@
                 </nav>
 
             </div>
+
         </div>
     </div>
 
