@@ -1,18 +1,16 @@
+<div class="footer-container">
 
- <div class="f_container">
+
+    <div class="f_container">
         <div class="f_item-1">
             <img id="f_logo" src="./assets/images/icons/footer_logo.png" alt="/">
             <p class="f_omschrijving">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa
-                qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" class="f_button">LEES MEER</button>
-            </div>
-            
+                laboris nisi ut aliquip ex ea commodo consequat..</p>
+            <button type="button" class="f_button">LEES MEER</button>
+        </div>
+
         <div class="f_item-2">
             <div class="f_h4">NAVIGEER</div>
             <ul>
@@ -26,17 +24,20 @@
         <div class="f_item-3">
             <div class="f_h4">VOLG ONS</div>
             <div class="f_icons">
-            <img src="assets/images/icons/facebook.png" alt="/">
-            <img src="assets/images/icons/twitter.png" alt="/">
-            <img src="assets/images/icons/intsagram.png" alt="/">
+                <img src="assets/images/icons/facebook.png" alt="/">
+                <img src="assets/images/icons/twitter.png" alt="/">
+                <img src="assets/images/icons/intsagram.png" alt="/">
             </div>
         </div>
         <div class="f_item-4">
-            <img src="./assets/images/icons/footer_img.png">
+            <img id="f_trap" src="./assets/images/icons/footer_img.png">
         </div>
     </div>
     <div class="f_copyright">
         <p>Voorwaarden | Privacy beleid | Cookie disclaimer</p>
     </div>
+</div>
+</div>
 </body>
+
 </html>

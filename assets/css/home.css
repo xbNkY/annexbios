@@ -1,3 +1,9 @@
+.main{
+   
+    grid-area: main;
+}
+
+
 .body{
     background-image: url('../images/header/header_afbeelding.jpg');
     background-color: black;

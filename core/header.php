@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet"  href="assets\css\home.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');</style>
     <title>AnnexBios - Maarssen</title>
 </head>
 
 <body class="body">
+
+<div class="grid-container">
+    
+<div class="header-container">
+
+
 
 
 
@@ -18,7 +25,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="header-logo">
-                    <img src="assets/images/logo/logox.png">
+                    <img id="logo-header" src="assets/images/logo/logox.png">
                 </div>
 
                 <nav>
@@ -57,5 +64,6 @@
     </div>
 
 </div>
+
 
 
