@@ -24,7 +24,7 @@ include('./core/header.php');
     <div class="flex-section">
         <div id="googleMap" style="width:100%l;height:400px;"></div>
         <div class="flex-tivoli">
-            <img src="./assets/images/maps/tivolitheater.jpg">
+            <!-- <img src="./assets/images/maps/tivolitheater.jpg"> -->
         </div>
         <div class="flex-details">
             <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></i> <br>
