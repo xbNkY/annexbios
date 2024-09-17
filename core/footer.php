@@ -1,5 +1,6 @@
 <div class="footer-container">
 
+
     <div class="f_container">
         <div class="f_item-1">
             <img id="f_logo" src="./assets/images/icons/footer_logo.png" alt="/">
@@ -31,6 +32,7 @@
         <div class="f_item-4">
             <img id="f_trap" src="./assets/images/icons/footer_img.png">
         </div>
+
     </div>
 
     <div class="f_copyright">

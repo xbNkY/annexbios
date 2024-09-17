@@ -2,28 +2,28 @@
 include('./core/header.php');
 ?>
 
-<link rel="stylesheet" href="assets\css\detail.css">
 
-<body class="body">
-    <div class="detailpage">
+<body class="detail_body">
+    <div class="detail_container">
+
         <div class="titel_div">
             <h1>JURASSIC WORLD:FALLEN KINGDOM</h1>
         </div>
         <div class="detail_foto">
             <img src="assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg">
         </div>
-        <div class="detail_container">
+        <div class="details_film">
             <div class="rating">
+                <!-- <img src="">
                 <img src="">
                 <img src="">
                 <img src="">
-                <img src="">
-                <img src="">
+                <img src=""> -->
             </div>
             <div class="kijk_wijzer">
-                <img src="assets/images/kijkwijzers/kijkwijzer-12.png">
-                <img src="assets/images/kijkwijzers/kijkwijzer-eng.png">
-                <img src="assets/images/kijkwijzers/kijkwijzer-geweld.png">
+                <img class="kijkwijzer_img" src="assets/images/kijkwijzers/kijkwijzer-12.png">
+                <img class="kijkwijzer_img" src="assets/images/kijkwijzers/kijkwijzer-eng.png">
+                <img class="kijkwijzer_img" src="assets/images/kijkwijzers/kijkwijzer-geweld.png">
             </div>
             <h2 class="release">Release: 7-06-2018</h2>
             <P>In het 3D actie-spektakel Jurassic World: Fallen Kingdom keren favoriete personages terug en worden er
@@ -64,7 +64,12 @@ include('./core/header.php');
         <div class="tickets_kopen">
             <h1>KOOP JE TICKETS</h1>
         </div>
-        <div class="trailer"></div>
+        <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vn9mMeWcgoM?si=8fZQ42hBpwhxjQVP"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 
 
