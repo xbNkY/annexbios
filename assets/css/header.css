@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .grid-container{
    display: grid;
    min-height: 100vh;
@@ -18,6 +19,8 @@
     background-color: aqua;
     grid-area: hd;
 }
+
+
 
 body {
     font-family: "Lato", sans-serif;
@@ -64,12 +67,15 @@ a {
     color: black;
 }
 
+
+
 .container {
-    max-width: 1646vh;
+    max-width: 12000px;
     margin: auto;
     padding-left: 1vh;
     padding-right: 1vh;
 }
+
 
 
 
@@ -78,6 +84,7 @@ a {
     height: 7vh;
     margin-left: 23vh;
 }
+
 
 
 
@@ -101,8 +108,10 @@ a {
 }
 
 .button {
+
     width: 15vh;
     height: 3vh;
+
     background: rgb(255, 255, 255);
     border: none;
     color: #9E2629;
@@ -132,6 +141,7 @@ a {
 
 
 .arrow {
+
     width: 5.5vh;
     margin-left: 10.9vh;
     transition: transform 0.3s;
@@ -155,6 +165,8 @@ a {
 
 
 .dropdown-content a {
+
+.dropdown-content a {
     color: black;
     padding: 1.6vh 2.2vh;
     text-decoration: none;
@@ -163,20 +175,27 @@ a {
 
 
 .dropdown-content a:hover {
+
+.dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
 
 .dropdown:hover .dropdown-content {
+
     display: block;
 }
 
 
+
 .dropdown:hover .arrow {
+
     transform: rotate(180deg);
 
 }
 
 .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
+
     background-color: #767676;
 }
