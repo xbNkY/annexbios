@@ -79,8 +79,8 @@ body {
 
 .flex-details{
     padding: 10px;
-    margin-top: 50px;
-    width: 40%;
+    /* margin-top: 50px; */
+    width: 50%;
     background-color:#9E2629;
     color: #fff;
 }
@@ -99,9 +99,14 @@ body {
 }
 
 .flex-tivoli img{
-    height: auto;
-    width: 50%;
+    display: flex;
+    padding: 10px;
+    height: 100%;
     float: right;
-    margin-right: 25px;
-    position: relative;
+
+}
+
+#map {
+    width: 50%;
+    height: 30vh;
 }
