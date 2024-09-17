@@ -3,18 +3,9 @@ include('./core/header.php');
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>AnnexBios - Home</title>
-</head>
-    
-<body>
+<div class="grid-container index-body">
+
 
     <script>(g => {
             var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => {
@@ -24,7 +15,6 @@ include('./core/header.php');
             ({ key: "AIzaSyCdrSau_AMiwHsCBTcu5tJehukVHOx1-h4", v: "weekly" });</script>
 
     <div class="home-container">
-        <!-- Header Section -->
         <div class="header-section">
             <h2>WELKOM BIJ ANNEXBIOS 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime odio at dolorem hic, deserunt enim
@@ -33,11 +23,13 @@ include('./core/header.php');
         </div>
 
         <div class="flex-section">
-            <div id="map"></div>
+            
             <div class="flex-tivoli">
-                <!-- <img src="./assets/images/header/tivolio.png"> -->
+                
+                <img src="./assets/images/header/tivolio.png">
             </div>
             <div class="flex-details">
+                <div id="map"></div>
                 <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></i> <br>
                 <i class="fa fa-phone"><span> 020-12345678</span></i> <br>
                 <h4>BEREIKBAARHEID</h4>
@@ -78,11 +70,7 @@ include('./core/header.php');
 
         initMap();
     </script>
-
-</body>
-
-</html>
-
+</div>
 <?php
 include('./core/footer.php');
 ?>

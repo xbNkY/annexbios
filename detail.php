@@ -2,8 +2,10 @@
 include('./core/header.php');
 ?>
 
+
 <body class="detail_body">
     <div class="detail_container">
+
         <div class="titel_div">
             <h1>JURASSIC WORLD:FALLEN KINGDOM</h1>
         </div>
@@ -69,9 +71,7 @@ include('./core/header.php');
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
-</body>
 
-</html>
 
 
 <?php
