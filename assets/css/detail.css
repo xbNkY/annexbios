@@ -1,10 +1,9 @@
-body {
+.detail_body {
     background-color: black;
-    color: white;
 }
 
-.p {
-    color: whitec;
+.detail_p {
+    color: white;
 }
 
 .titel_div h1{
@@ -12,17 +11,29 @@ body {
     background-color: white;
 }
 
-.detail_container {
+.detail_film {
     background-color: white;
-    
-
+    width: 52vh;
 }
 
 .detail_foto {
-   
+    background-color: black;
 }
 
 .tickets_kopen {
     background-color: #9E2629;
     color: white;
+}
+
+.detail.h1 {
+    font-size: 45px;
+}
+
+.info {
+    color: white;
+}
+
+.kijkwijzer_img {
+    width: 4,7vh;
+    height: 4,7vh;
 }
