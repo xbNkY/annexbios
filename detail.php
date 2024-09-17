@@ -2,7 +2,6 @@
 include('./core/header.php');
 ?>
 
-
 <link rel="stylesheet" href="assets\css\detail.css">
 
 <body class="body">

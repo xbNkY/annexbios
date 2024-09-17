@@ -13,15 +13,9 @@
 
 <body class="body">
 
-
 <div class="grid-container">
     
 <div class="header-container">
-
-
-
-
-
 
     <div class="header">
         <div class="container">
