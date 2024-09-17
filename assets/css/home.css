@@ -21,8 +21,7 @@
 
 
 
-body {
-
+.index-body {
     background-image: url('../images/header/header_afbeelding.jpg');
     background-color: black;
     background-repeat: no-repeat;
@@ -78,8 +77,6 @@ body {
 }
 
 .flex-details{
-    padding: 10px;
-    /* margin-top: 50px; */
     width: 50%;
     background-color:#9E2629;
     color: #fff;
@@ -99,14 +96,13 @@ body {
 }
 
 .flex-tivoli img{
-    display: flex;
-    padding: 10px;
-    height: 100%;
     float: right;
+    width: 50%;
+    height: 100%;
 
 }
 
 #map {
-    width: 50%;
+    width: 100%;
     height: 30vh;
 }
