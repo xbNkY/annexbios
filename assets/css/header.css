@@ -18,6 +18,7 @@
 .header-container{
     background-color: aqua;
     grid-area: hd;
+
 }
 
 
@@ -165,12 +166,14 @@ a {
 
 
 
+
 .dropdown-content a {
     color: black;
     padding: 1.6vh 2.2vh;
     text-decoration: none;
     display: block;
 }
+
 
 
 
@@ -191,6 +194,7 @@ a {
     transform: rotate(180deg);
 
 }
+
 
 .dropdown:hover .dropbtn {
 
