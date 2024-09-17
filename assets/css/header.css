@@ -154,7 +154,7 @@ a {
 }
 
 
-dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 1.6vh 2.2vh;
     text-decoration: none;
@@ -162,21 +162,21 @@ dropdown-content a {
 }
 
 
-dropdown-content a:hover {
+.dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
 
-dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
 
-dropdown:hover .arrow {
+.dropdown:hover .arrow {
     transform: rotate(180deg);
 
 }
 
-dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
     background-color: #767676;
 }
