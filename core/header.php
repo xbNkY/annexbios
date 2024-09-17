@@ -26,8 +26,10 @@
     <div class="header">
         <div class="container">
             <div class="navbar">
-                <div class="header-logo">
+                <div class="header-logo"> <a href="index.php">
                     <img id="logo-header" src="assets/images/logo/logox.png">
+                   </a>
+
                 </div>
 
                 <nav>
