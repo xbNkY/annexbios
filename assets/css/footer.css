@@ -4,91 +4,121 @@
     box-sizing: border-box;
 }
 
+
+.footer-container {
+
+    background-color: pink;
+    grid-area: ft;
+
+
+}
+
+
+
 .f_container {
     background-color: #666666;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 478px;
-    padding-left: 181px;
-    padding-bottom: 100px;
+    height: 30vh;
 }
 
 .f_item-1 {
-    font-size: small;
-    justify-content: center;
+    font-size: 1.3vh;
+    text-align: left;
+    margin-bottom: 2vh;
+   
+
 }
 
 .f_item-2 {
     text-decoration: none;
-    padding: 100px;
+    padding: 3vh;
     justify-content: center;
 }
 
 .f_item-3 {
-    width: 100%;    
+    width: 20vh;
     align-items: center;
     justify-content: center;
 }
 
 .f_item-4 {
-    width: 620,43px;
-    height: 195,84px;
+    align-items: end;
+}
+
+.f_trap {
+    align-items: flex-end;
+
+}
+
+#f_trap {
+    width: 20vh;
+
 }
 
 #f_logo {
-    width: 301.19px;
-    margin-top: 107.2px;
+
+    width: 35vh;
+    height: 11vh;
+    padding-top: 3vh;
+    padding-left: 9vh;
 }
 
 .f_omschrijving {
     color: white;
-    width: 403px;
-    height: 141PX;
-    font-size: 20px;
+    margin-bottom: 2vh;
+    font-size: 1.3vh;
+    width: 40vh;
+    display: block;
+    margin-left: 10vh;
+
 }
 
 .f_h4 {
     color: white;
-    padding-top: 10px;
-    font-size: 20px;
+    padding-top: 1vh;
+    font-size: 1.3vh;
 }
 
 .f_copyright {
     background-color: #000000;
     color: white;
-    padding: 10px;
-    padding-left: 181px;
-    font-size: 20px;
+    padding: 1vh;
+    padding-left: 15vh;
+    font-size: 1.3vh;
+    text-align: center;
 }
 
+
+
 .f_button {
-    width: 108px;
-    height: 37px;
-    font-size: 15px;
+    width: 8vh;
+    height: 2vh;
+    font-size: 1vh;
+    display: inline-block;
+    border: 0px;
+    margin-left: 10vh;
 }
 
 .f_icons {
-    padding-top: 10px;
+    padding-top: 1vh;
     justify-content: center;
     display: flex;
 }
 
 .f_icons a {
-    padding: 10px;
-    margin: 10px;
-    height: 43px;
-    width: 43px;
+    padding: 1vh;
+    margin: 1vh;
+    height: 1.5vh;
+    width: 1.5vh;
 }
 
 .f_item-2 ul {
-    padding-top: 10px;
-    font-size: 20px;
-} 
+    padding-top: 1vh;
+    font-size: 1.3vh;
+}
 
 .f_link {
     color: white;
     text-decoration: none;
 }
-
-
