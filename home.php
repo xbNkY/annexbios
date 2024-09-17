@@ -2,6 +2,7 @@
 include('./core/header.php');
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +20,7 @@ include('./core/header.php');
         <h2>WELKOM BIJ ANNEXBIOS 2</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime odio at dolorem hic, deserunt enim exercitationem modi vel architecto, omnis placeat explicabo tempora.</p>
         <button class="button">BEKIJK DE DRAAIENDE FILMS</button>
+
     </div>
 
     <div class="flex-section">
@@ -47,8 +49,10 @@ include('./core/header.php');
                 </script>
                 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
+
 </body>
 </html>
+
 
 <?php
 include('./core/footer.php');

@@ -1,3 +1,12 @@
+
+.main{
+   
+    grid-area: main;
+}
+
+
+.body{
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +22,7 @@
 
 
 body {
+
     background-image: url('../images/header/header_afbeelding.jpg');
     background-color: black;
     background-repeat: no-repeat;
