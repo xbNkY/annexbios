@@ -49,11 +49,6 @@ include('./core/header.php');
                 </script>
                 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
-
-</body>
-</html>
-
-
 <?php
 include('./core/footer.php');
 ?>
