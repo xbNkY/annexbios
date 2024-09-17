@@ -3,8 +3,7 @@ include('./core/header.php');
 ?>
 
 
-<body class="index-body">
-
+<div class="grid-container index-body">
 
     <script>(g => {
             var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => {
@@ -14,7 +13,6 @@ include('./core/header.php');
             ({ key: "AIzaSyCdrSau_AMiwHsCBTcu5tJehukVHOx1-h4", v: "weekly" });</script>
 
     <div class="home-container">
-        <!-- Header Section -->
         <div class="header-section">
             <h2>WELKOM BIJ ANNEXBIOS 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime odio at dolorem hic, deserunt enim
@@ -70,9 +68,7 @@ include('./core/header.php');
 
         initMap();
     </script>
-
-
-
+</div>
 <?php
 include('./core/footer.php');
 ?>
