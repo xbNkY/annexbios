@@ -1,7 +1,4 @@
 <div class="footer-container">
-
-
-
     <div class="f_container">
         <div class="f_item-1">
             <img id="f_logo" src="./assets/images/icons/footer_logo.png" alt="/">

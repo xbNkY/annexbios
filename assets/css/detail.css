@@ -1,5 +1,5 @@
-.detail_body {
-    background-color: black;
+body.detail_body {
+    background-image: none;
 }
 
 .detail_p {
@@ -34,6 +34,7 @@
 }
 
 .kijkwijzer_img {
-    width: 4,7vh;
-    height: 4,7vh;
+    width: 4.7vh;
+    height: 4.7vh;
 }
+
