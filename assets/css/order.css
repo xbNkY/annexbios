@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.ticket-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+
+h2 {
+    color: #a00000;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    border-bottom: 1px solid #797979;
+}
+
+td {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+select {
+    padding: 5px;
+    border: solid #a00000;
+
+}
+
+.voucher-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.voucher-section input {
+    padding: 5px;
+    flex: 1;
+    border: solid #a00000;
+    margin-right: 10px;
+    margin-left: 1.5vh;
+}
+
+.voucher-section button {
+    background-color: #a00000;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.voucher-section button:hover {
+    background-color: #800000;
+}
+
+
+
+
+.order-body {
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.text-header {
+    background-color: white;
+    margin-left: 10vh;
+    height: 10vh;
+    width: 90%;
+    align-content: center;
+    display: block;
+    margin-top: 5vh;
+    text-align: left;
+
+}
+
+.top-text {
+
+    padding-left: 5vh;
+    font-weight: bold;
+    font-size: 5.5vh;
+    color: #9E2629;
+
+}
+
+
+.page-container {
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    height: 1200vh;
+    width: 70%;
+    background-color: white;
+   
+    
+}
+
+
+.text-bottom {
+    background-color: #9E2629;
+    margin-left: 10vh;
+    height: 10vh;
+    width: 70%;
+    align-content: center;
+    display: block;
+    margin-top: 5vh;
+    text-align: left;
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+.placeholder-movie {
+    height: 90vh;
+    width: 40vh;
+    background-color: #442828;
+    margin-top: 12.3vh;
+    display: flex;
+    float: right;
+    margin-right: 5vh;
+    
+}
+
+#movie-image {
+    height: 60vh;   
+    width: 40vh;
+
+
+}
+
+
+.text-area-bottom {
+    font-weight: bold;
+    font-size: 5vh;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.text-movie {
+    background-color: #ffffff;
+    color: #9E2629;
+    font-size: 1.6vh;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 20vh;
+    height: 4.3vh;
+    padding-left: 1vh;
+    overflow: hidden;
+    display: inline-flex;
+    margin-left: 10vh;
+}
+
+
+.butdrdwn {
+    background-color: #ffffff;
+    color: #9E2629;
+    font-size: 1.6vh;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 15vh;
+    height: 4.3vh;
+    padding-left: 1vh;
+    overflow: hidden;
+
+}
+
+.butdrdwn2 {
+    background-color: #ffffff;
+    color: #9E2629;
+    font-size: 1.6vh;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 15vh;
+    height: 4.3vh;
+    padding-left: 1vh;
+    overflow: hidden;
+
+}
+
+
+
+.arrow {
+    width: 4.5vh;
+    margin-left: 1.9vh;
+    transition: transform 0.3s;
+    margin-top: 1vh;
+
+}
+
+
+.button-head {
+    display: inline-flex;
+    margin-left: 2vh;
+    margin-top: 3vh;
+
+}
+
+.button-head2 {
+    display: inline-flex;
+    margin-left: 2vh;
+    margin-top: 3vh;
+
+}
+
+
+.button-head-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 15vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+
+
+.button-head-content a {
+    color: black;
+    padding: 1.6vh 2.2vh;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.button-head-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.button-head:hover .button-head-content {
+
+    display: block;
+}
+
+
+
+.button-head:hover .arrow {
+
+    transform: rotate(180deg);
+
+}
+
+
+.button-head:hover .butdrdwn {
+
+    background-color: #767676;
+}
+
+
+
+.button-head-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 15vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+
+
+.button-head-content2 a {
+    color: black;
+    padding: 1.6vh 2.2vh;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.button-head-content2 a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.button-head2:hover .button-head-content2 {
+
+    display: block;
+}
+
+
+
+.button-head2:hover .arrow {
+
+    transform: rotate(180deg);
+
+}
+
+
+.button-head2:hover .butdrdwn2 {
+
+    background-color: #767676;
+}
