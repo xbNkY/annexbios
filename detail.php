@@ -2,14 +2,19 @@
 include('./core/header.php');
 ?>
 
+
 <body class="detail_body">
+
+    <div class="titel_div">
+        <h1>JURASSIC WORLD: FALLEN KINGDOM</h1>
+    </div>
     <div class="detail_container">
-        <div class="titel_div">
-            <h1>JURASSIC WORLD:FALLEN KINGDOM</h1>
-        </div>
-        <div class="detail_foto">
-            <img src="assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg">
-        </div>
+
+
+       
+            <img id="detail_foto" src="assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg">
+ 
+
         <div class="details_film">
             <div class="rating">
                 <!-- <img src="">
@@ -50,29 +55,28 @@ include('./core/header.php');
                 <h3>Acteurs: </h3>
             </div>
             <div class="acteurs">
-                <img src="assets/images/acteurs/BryceDallas.jpg">
-
-                <img src="assets/images/acteurs/Chris_Pratt.jpg">
-
-                <img src="assets/images/acteurs/rafe_spall.jpg">
-
-                <img src="assets/images/acteurs/Toby_Jones.jpg">
+                <figcaption><img src="assets/images/acteurs/BryceDallas.jpg"></figcaption>
+                <p class="acteurs_namen">Bryce Dallas</p>
+                </figcaption><img src="assets/images/acteurs/Chris_Pratt.jpg"></figcaption>
+                <p class="acteurs_namen">Chris Pratt</p>
+                </figcaption><img src="assets/images/acteurs/rafe_spall.jpg"></figcaption>
+                <p class="acteurs_namen">Rafe Spall</p>
+                </figcaption> <img src="assets/images/acteurs/Toby_Jones.jpg"></figcaption>
+                <p class="acteurs_namen">Toby Jones</p>
             </div>
         </div>
-        <div class="tickets_kopen">
-            <h1>KOOP JE TICKETS</h1>
-        </div>
-        <div class="trailer">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vn9mMeWcgoM?si=8fZQ42hBpwhxjQVP"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+
     </div>
-</body>
+    <div class="tickets_kopen">
+        <h1>KOOP JE TICKETS</h1>
+    </div>
+    <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vn9mMeWcgoM?si=8fZQ42hBpwhxjQVP"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-</html>
 
-
-<?php
-include('./core/footer.php'); ?>
+    <?php
+    include('./core/footer.php'); ?>

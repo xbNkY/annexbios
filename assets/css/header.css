@@ -5,17 +5,16 @@
 }
 
 
-.grid-container{
-   display: grid;
-   min-height: 100vh;
-   grid-template-rows: auto 1fr auto;
-   grid-template-areas: 'hd'
-                        'main'
-                        'ft';
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'hd'
+        'main'
+        'ft';
 }
 
 
-.header-container{
+.header-container {
     background-color: aqua;
     grid-area: hd;
 
@@ -112,7 +111,6 @@ a {
 
     width: 15vh;
     height: 3vh;
-
     background: rgb(255, 255, 255);
     border: none;
     color: #9E2629;
@@ -122,6 +120,7 @@ a {
     font-style: normal;
 
 
+
 }
 
 
@@ -129,7 +128,6 @@ a {
 .dropbtn {
     background-color: #C3575A;
     color: white;
-    padding: 1.3vh 2.7vh;
     font-size: 1.6vh;
     border: none;
     cursor: pointer;
@@ -138,12 +136,16 @@ a {
     width: 25vh;
     height: 4.3vh;
     margin-right: 2vh;
+    margin-left: 1vh;
+    padding-left: 1vh;
+    overflow: hidden;
+   
 }
 
 
 .arrow {
 
-    width: 5.5vh;
+    width: 4.5vh;
     margin-left: 10.9vh;
     transition: transform 0.3s;
 }
@@ -152,6 +154,7 @@ a {
 .dropdown {
     position: relative;
     display: inline-block;
+   
 }
 
 
@@ -160,7 +163,7 @@ a {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 21.9vh;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
