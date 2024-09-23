@@ -13,7 +13,7 @@
     width: 100%;
 }
 
-.text2 {
+.titel-order {
     color: #a00000;
     font-size: 24px;
 }
@@ -24,7 +24,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
 }
@@ -48,7 +49,7 @@ select {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    
+
 }
 
 .voucher-section input {
@@ -110,8 +111,8 @@ select {
     height: 1200vh;
     width: 70%;
     background-color: white;
-   
-    
+
+
 }
 
 
@@ -134,16 +135,16 @@ select {
 .placeholder-movie {
     height: 90vh;
     width: 40vh;
-    background-color: #442828;
+    background-color: white;
     margin-top: 12.3vh;
     display: flex;
     float: right;
     margin-right: 5vh;
-    
+
 }
 
 #movie-image {
-    height: 60vh;   
+    height: 60vh;
     width: 40vh;
 
 
@@ -322,4 +323,125 @@ select {
 .button-head2:hover .butdrdwn2 {
 
     background-color: #767676;
+}
+
+
+.chair-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.titel-order2 {
+    color: #a00000;
+    font-size: 24px;
+
+}
+
+
+
+.container-chair {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.titel-chair {
+    margin-bottom: 20px;
+    border-top: 2px solid #a00;
+    padding-bottom: 10px;
+    color: #a00;
+}
+
+
+
+.seating-area {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 23%;
+}
+
+.row {
+    display: flex;
+   
+    margin-bottom: 10px;
+}
+
+.chair {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #f08080;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chair:hover {
+    background-color: #f05050;
+}
+
+.chair.occupied {
+    background-color: #a00000;
+}
+
+.chair.selected {
+    background-color: #c00000;
+}
+
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend-item {
+    height: 5vh;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 5vh;
+}
+
+.legend-item.free {
+    width: 11vh;
+    background-color: #f08080;
+}
+
+.legend-item.occupied {
+    width: 11vh;
+    background-color: #a00000;
+}
+
+.legend-item.selected {
+
+    width: 30%;
+    background-color: #c00000;
+}
+
+
+
+
+.bestelling-container{
+    padding: 20px;
+}
+
+
+.titel-bestelling {
+    color: #a00;
+    font-size: 24px;
+}
+
+
+.film-container{
+
+    width: 90%;
+    height: 40vh;
+    border: 2px solid #9E2629;
+    margin-top: 5vh;
 }
