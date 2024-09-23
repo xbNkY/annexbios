@@ -54,7 +54,7 @@ include('./core/header.php');
 
         <body>
             <div class="ticket-container">
-                <h2>STAP 1: KIES JE TICKET</h2>
+                <div class="text2">STAP 1: KIES JE TICKET</div>
                 <table>
                     <thead>
                         <tr>
