@@ -19,18 +19,18 @@ include('./core/header.php');
             <h2>WELKOM BIJ ANNEXBIOS 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime odio at dolorem hic, deserunt enim
                 exercitationem modi vel architecto, omnis placeat explicabo tempora.</p>
-            <button class="button">BEKIJK DE DRAAIENDE FILMS</button>
+            <button class="meer-button">BEKIJK DE DRAAIENDE FILMS</button>
         </div>
 
         <div class="flex-section">
-            
-            <div class="flex-tivoli">
-                
-                <img src="./assets/images/header/tivolio.png">
-            </div>
+
+
+            <img id="flex-tivoli-img" src="./assets/images/header/tivolio.png">
+
+
             <div class="flex-details">
                 <div id="map"></div>
-                <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></i> <br>
+                <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></> <br>
                 <i class="fa fa-phone"><span> 020-12345678</span></i> <br>
                 <h4>BEREIKBAARHEID</h4>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad soluta pariatur nobis sint
@@ -39,38 +39,38 @@ include('./core/header.php');
             </div>
         </div>
 
+
+
+        <script>
+            let map;
+
+            async function initMap() {
+
+                const position = { lat: 51.8355401, lng: 4.1328773 };
+
+
+                const { Map } = await google.maps.importLibrary("maps");
+                const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+
+                map = new Map(document.getElementById("map"), {
+                    zoom: 17,
+                    center: position,
+                    mapId: "Rijksstraatweg 42",
+                    disableDefaultUI: true,
+                });
+
+
+                const marker = new AdvancedMarkerElement({
+                    map: map,
+                    position: position,
+                    title: "Rijksstraatweg 42",
+                });
+            }
+
+            initMap();
+        </script>
     </div>
-
-    <script>
-        let map;
-
-        async function initMap() {
-
-            const position = { lat: 51.8355401, lng: 4.1328773 };
-
-
-            const { Map } = await google.maps.importLibrary("maps");
-            const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
-
-            map = new Map(document.getElementById("map"), {
-                zoom: 17,
-                center: position,
-                mapId: "Rijksstraatweg 42",
-                disableDefaultUI: true,
-            });
-
-
-            const marker = new AdvancedMarkerElement({
-                map: map,
-                position: position,
-                title: "Rijksstraatweg 42",
-            });
-        }
-
-        initMap();
-    </script>
-</div>
-<?php
-include('./core/footer.php');
-?>
+    <?php
+    include('./core/footer.php');
+    ?>
