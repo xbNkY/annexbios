@@ -4,9 +4,9 @@ include "core\php\datafetch.php";
 $movies = getMovies();
 
 //dumpt alle array data overzichtelijk
-// echo "<pre>";
-//    var_dump( $movies); 
-//    echo "</pre>";
+ echo "<pre>";
+    var_dump( $movies); 
+  echo "</pre>";
 
 //    //foreach die door de array loopt en data in beeld toont
 // if (is_array($movies["data"])) {
@@ -76,7 +76,11 @@ $movies = getMovies();
                         }
 
                         //   echo  $item['description'] . "<br>"; ?> </p>
+                        <a href="detail.php?id=<?php echo $movies["api_id"]?>">
+  
+
                         <button class="info-button"> Meer info & tickets </button>
+                        </a>
                      </div>
                   </div>
                </div>
