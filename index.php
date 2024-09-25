@@ -26,11 +26,13 @@ include('./core/header.php');
 
         <div class="flex-section">
 
+
             <img id="flex-tivoli-img" src="./assets/images/header/tivolio.png">
+
 
             <div class="flex-details">
                 <div id="map"></div>
-                <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></i> <br>
+                <i class="fa fa-map-marker"><span> Rijksstraatweg 42 <br> 3223 KA Hellevoetsluis</span></> <br>
                 <i class="fa fa-phone"><span> 020-12345678</span></i> <br>
                 <h4>BEREIKBAARHEID</h4>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ad soluta pariatur nobis sint
@@ -39,7 +41,7 @@ include('./core/header.php');
             </div>
         </div>
 
-        
+
 
         <script>
             let map;
