@@ -37,7 +37,7 @@
 
                         <nav>
                             <ul id="MenuItems" style="max-height: 0px;">
-                                <li><a href="">FILM AGENDA</a></li>
+                                <li><a href="moviecards.php">FILM AGENDA</a></li>
                                 <li><a href="">ALLE VESTIGINGEN</a></li>
                                 <li><a href="">CONTACT</a></li>
                             </ul>

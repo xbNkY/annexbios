@@ -19,7 +19,9 @@ include('./core/header.php');
             <h2>WELKOM BIJ ANNEXBIOS 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil maxime odio at dolorem hic, deserunt enim
                 exercitationem modi vel architecto, omnis placeat explicabo tempora.</p>
+                <a href="moviecards.php">
             <button class="meer-button">BEKIJK DE DRAAIENDE FILMS</button>
+        </a>
         </div>
 
         <div class="flex-section">
