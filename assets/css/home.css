@@ -22,6 +22,7 @@
 
 
 .index-body {
+
     background-image: url('../images/header/header_afbeelding.jpg');
     background-color: black;
     background-repeat: no-repeat;
@@ -61,7 +62,7 @@
     color: #9E2629;
     padding: 10px 20px;
     text-transform: uppercase;
-    font-size: bold;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     font-size: small;
@@ -74,12 +75,18 @@
     max-width: 1200px;
     margin: 20px auto;
     background-color: #fff;
+    height: 68%;
+    display: flex;
+    column-count: 2;
+    column-gap: 20px;
 }
 
 .flex-details{
     width: 50%;
     background-color:#9E2629;
     color: #fff;
+    height: 100%;
+    
 }
 
 .flex-details .fa{
@@ -95,11 +102,9 @@
     color: #fff;
 }
 
-.flex-tivoli img{
-    float: right;
+.flex-section img{
     width: 50%;
     height: 100%;
-
 }
 
 #map {
