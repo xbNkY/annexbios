@@ -10,7 +10,9 @@ include('./core/header.php');
     </div>
     <div class="detail_container">
 
-       <img id="detail_foto" src="assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg">
+
+       
+            <img id="detail_foto" src="assets/images/films/Jurassic-World_-Fallen-Kingdom.jpg">
  
 
         <div class="details_film">
