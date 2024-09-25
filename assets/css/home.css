@@ -1,6 +1,5 @@
+.main {
 
-.main{
-   
     grid-area: main;
 }
 
@@ -56,19 +55,18 @@
     margin-bottom: 20px;
 }
 
-.header-section .button {
+.meer-button {
     background-color: white;
     color: #9E2629;
     padding: 10px 20px;
     text-transform: uppercase;
-    font-size: bold;
     border: none;
     cursor: pointer;
     font-size: small;
     width: 20%;
 }
 
-.flex-section{
+.flex-section {
     width: 100%;
     padding: 25px;
     max-width: 1200px;
@@ -76,33 +74,41 @@
     background-color: #fff;
 }
 
-.flex-details{
+.flex-details {
     width: 50%;
-    background-color:#9E2629;
+    background-color: #9E2629;
     color: #fff;
+
 }
 
-.flex-details .fa{
-    padding: 5px;
+.flex-details .fa {
+    padding-top: 2vh;
+    padding-left: 2vh;
+
 }
 
-.flex-details h4{
-    padding: 5px;
+.flex-details h4 {
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1px;
 }
 
 .flex-details p {
-    padding: 5px;
+    padding: 2vh;
     color: #fff;
 }
 
-.flex-tivoli img{
-    float: right;
+#flex-tivoli-img {
     width: 50%;
-    height: 100%;
+    height: 30vw;
+    display: inline-flex;
+    float: right;
+    padding-left: 5vh;
 
 }
 
 #map {
     width: 100%;
     height: 30vh;
+    float: left;
 }
