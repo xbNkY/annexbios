@@ -1,5 +1,5 @@
 <?php
-//include('./core/header.php');
+include('./core/header.php');
 include "core\php\datafetch.php";
 $movies = getMovies();
 
@@ -27,56 +27,62 @@ $movies = getMovies();
 //         //zorgt ervoor dat genres netjes in beeld wordt getoont
 //         echo join(", ",$genres_simpel);
 
-//         echo "<br>";
-//         //   echo "<pre>";
+   // echo "<br>";
+   // // echo "
+ //  <pre>";
 //         //    var_dump($item); 
 //         //    echo "</pre>";
-//     }
-// } else {
-//     echo "No data found.";
-// }
+   // }
+   // } else {
+   // echo "No data found.";
+   // }
 
 
-?> 
+   ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/moviecards.css">
-    <title>Responsive flex box cards</title>
-</head>
-<body>
 
-<div class="flex-container">
-   <div id="banner">
-      <h1> Film Agenda</h1>
-   </div>
-     <!-- <?php if (is_array($movies["data"])) {
-    foreach ($movies["data"] as  $key => $item){ ?>  -->
-    <div class="card-container">
-     <div class="card">
-     <div class="card-image">
-          <img src="<?php echo $item['image']; ?>" alt="movie_image" ">  </div> 
-          <div class="text_space">
-        <h2> <?php echo  $item['title']. "<br>"; ?> </h2>
-           <p> Release date: 00-00-0000 </p>
-           <p> <?php 
-           $description = $item['description'];
-           if (strlen($description)> 300){
-            echo substr($description,0, 300) . '...';
-           } else {
-            echo $description;
-           }
-           
-         //   echo  $item['description'] . "<br>"; ?> </p>
-           <button class="button"> Meer info & tickets </button>
-           </div>
-        </div>
-        <?php }}?>
-    </div>
-    </div>
-    
-</body>
-</html>
+
+   <body class="film-body">
+
+      <div class="flex-container">
+         <div id="banner">
+            <h1> Film Agenda</h1>
+         </div>
+        <input type="radio" id="films" name="agenda_categorie" value="FILMS">
+        <label for="films">Films</label>
+        <input type="radio" id="deze_week" name="agenda_categorie" value="deze_week">
+        <label for="films">Deze week</label>
+        <input type="radio" id="vandaag" name="agenda_categorie" value="vandaag">
+        <label for="films">Vandaag</label>
+        <input type="radio" id="categorie" name="agenda_categorie" value="categorie">
+        <label for="films">Categorie</label>
+         <?php
+         if (is_array($movies["data"])) {
+
+            foreach ($movies["data"] as $key => $item) { ?>
+               <div class='card-container'>
+                  <div class="card">
+                     <div class="card-image">
+                        <img src="<?php echo $item['image']; ?>" alt="movie_image" ">  </div> 
+                            <div class=" text_space">
+                        <h2> <?php echo $item['title'] . "<br>"; ?> </h2>
+                        <p> Release date: 00-00-0000 </p>
+                        <p> <?php
+                        $description = $item['description'];
+                        if (strlen($description) > 300) {
+                           echo substr($description, 0, 300) . '...';
+                        } else {
+                           echo $description;
+                        }
+
+                        //   echo  $item['description'] . "<br>"; ?> </p>
+                        <button class="info-button"> Meer info & tickets </button>
+                     </div>
+                  </div>
+               </div>
+
+
+            <?php }
+         } ?>
+
+      </div>

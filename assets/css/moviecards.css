@@ -18,11 +18,10 @@
 }
 .card-container {
     display: flex;
-    background-color: yellow;
-     flex-wrap: wrap;
-   flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 20vh;
 }
 
 .card {
@@ -55,7 +54,7 @@ img {
     margin-bottom: 10px;
 } 
 
-.button{
+.info-button{
     background-color: #9E2629;
     padding: 10px 24px;
     color: #fff;
