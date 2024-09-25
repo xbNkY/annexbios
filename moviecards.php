@@ -63,7 +63,7 @@ $movies = getMovies();
                <div class='card-container'>
                   <div class="card">
                      <div class="card-image">
-                        <img id="image"   src="<?php echo $item['image']; ?>" alt="movie_image" ">  </div> 
+                        <img id="image"   src="<?php echo $item['image']; ?>" alt="movie_image" >  </div> 
                             <div class=" text_space">
                         <h2> <?php echo $item['title'] . "<br>"; ?> </h2>
                         <p> Release date: 00-00-0000 </p>

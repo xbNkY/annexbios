@@ -16,6 +16,9 @@
     height: 90.5vh;
     margin-left: 5vh;
     background-color: #ffffff;
+
+    padding-left: 3vh;
+    padding-top: 5vh;
 }
 
 
@@ -51,9 +54,8 @@
 
 .movie-description {
     font-size: 18px;
-    padding-top: 20vh;
     color: #666666;
-    padding-left: 3vh;
+
     font-weight: lighter;
 
 
@@ -63,8 +65,8 @@
 .movie-genres {
     font-size: 18px;
     color: #666666;
-    padding-left: 3vh;
-    margin-top: 5vh;
+
+
 }
 
 
@@ -75,7 +77,6 @@
     font-weight: bold;
     margin-bottom: 10px;
     text-align: left;
-    padding-left: 3vh;
     color: #666666;
 }
 
@@ -112,19 +113,63 @@
     height: 10vh;
     width: 90%;
     align-content: center;
-
     display: block;
     margin-top: 5vh;
     text-align: center;
-    padding-left: 5vh ;
+    padding-left: 5vh;
 }
 
 .trailer {
-    width: 90%;  
+    width: 90%;
     border: 6px solid #9E2629;
     margin-top: 5vh;
     margin-left: 10vh;
     margin-bottom: 20vh;
     
+
+
+}
+
+
+.viewing-symbol {
+    size: 20vh;
+    display: inline-block;
+
+
+
+}
+
+.movie-release-date {
+    color: #666666;
+    font-size: 40px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+
+
+}
+
+
+.movie-rating {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+    margin-top: 3vh;
+}
+
+.movie-length {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+
+}
+
+#trailer-link{
+
+    width: 100%;
+    height: 90vh;
+
+
 
 }

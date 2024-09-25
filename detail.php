@@ -23,10 +23,23 @@ include('./core/header.php');
             echo "<img src='" . $item['image'] . "' alt='" . $item['title'] . "' class='movie-image'><br>";
 
             echo "<div class='movie-container'>";
+           
+
+        
+            foreach ($item['viewing_guides']['symbols'] as $symbol) {
+                echo "<div class='viewing-symbol'>";
+                echo "<img src='" . $symbol['image'] . "' alt='" . $symbol['name'] . "' class='symbol-image' />";
+                echo "</div>";
+            }
+
+
+            echo "<div class='movie-release-date'>Release: " . $item['release_date'] . "</div>";
+
+
             echo "<div class='movie-description'>" . $item['description'] . "</div>";
 
-
-
+            echo "<div class='movie-rating'>Rating: " . $item['rating'] . "</div>";
+            echo "<div class='movie-length'>Length: " . $item['length'] . " minutes</div>";
             echo "<div class='movie-genres'>Genres: ";
             $genres_simpel = [];
             foreach ($item['genres'] as $item2) {
@@ -59,7 +72,16 @@ include('./core/header.php');
     } else {
         echo "No data found.";
     }
+
+
+
+
+
+
     ?>
+
+
+
     <a href="order.php">
         <div class="tickets_kopen">
 
@@ -67,11 +89,13 @@ include('./core/header.php');
         </div>
     </a>
 
+<?php
 
-    <div class="trailer">
-        <img id="movie-trailer" src="assets\images\films\image.png" alt="Movie Trailer Placeholder">
-    </div>
+echo "<div class='movie-trailer-link'><a href='" . $item['trailer_link'] . "' target='_blank'>Watch Trailer</a></div>";
+echo "<div class='trailer'><iframe id='trailer-link' src='" . $item['embedded_trailer_link'] . "' frameborder='0' allowfullscreen></iframe></div>";
+   
 
+?>
 
     <?php
     include('./core/footer.php');
