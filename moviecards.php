@@ -132,14 +132,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         } else {
                            echo $description;
                         }
-
-                        //   echo  $item['description'] . "<br>"; ?> </p>
-                        <!-- <a href="detail.php?=movie.php?imdb_id=<?php echo $movies["imdb_id"]?>" -->
+ ?> </p>
+                        
+                        <?php foreach ($response['data'] as $movie) {
+           echo '<a href="detail.php?imdb_id=' . htmlspecialchars($movie['imdb_id']) . '">';
+      echo '</a><br>'; ?>
+                      
+                      <a href="detail.php?imdb_id=tt18412256">
                         <button class="info-button"> Meer info & tickets </button>
-                        <!-- </a> -->
+                        </a>
                      </div>
                   </div>
-                  
+}
                   
                   <?php }
          } ?>
