@@ -380,8 +380,4 @@ include('./php/core/header.php');
 
         <?php
         include('./core/footer.php');
-
-
-
-    <?php
-    include('./core/footer.php');
+?>
