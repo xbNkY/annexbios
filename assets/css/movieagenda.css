@@ -1,0 +1,62 @@
+.movie-agenda-section {
+    padding: 40px 20px;
+    background-color: black;
+    width: 100%;
+}
+
+.movie-agenda-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #9E2629;
+}
+
+.error-message {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie-card {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: #444;
+}
+
+.movie-card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.movie-card .button {
+    margin-top: 10px;
+    background-color: #9E2629;
+    color: white;
+    font-size: 1em;
+}
