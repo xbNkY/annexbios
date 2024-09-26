@@ -9,7 +9,7 @@
 .ticket-container {
     background-color: white;
     padding: 20px;
-    max-width: 100%;
+
     width: 100%;
 }
 
@@ -108,7 +108,7 @@ select {
     margin-left: 10vh;
     margin-bottom: 10vh;
     margin-top: 5vh;
-    height: 1200vh;
+    height: 210vh;
     width: 70%;
     background-color: white;
 
@@ -172,38 +172,11 @@ select {
     overflow: hidden;
     display: inline-flex;
     margin-left: 10vh;
+    margin-top: 2vh;
 }
 
 
-.butdrdwn {
-    background-color: #ffffff;
-    color: #9E2629;
-    font-size: 1.6vh;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    width: 15vh;
-    height: 4.3vh;
-    padding-left: 1vh;
-    overflow: hidden;
 
-}
-
-.butdrdwn2 {
-    background-color: #ffffff;
-    color: #9E2629;
-    font-size: 1.6vh;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    width: 15vh;
-    height: 4.3vh;
-    padding-left: 1vh;
-    overflow: hidden;
-
-}
 
 
 
@@ -366,7 +339,7 @@ select {
 
 .row {
     display: flex;
-   
+
     margin-bottom: 10px;
 }
 
@@ -427,7 +400,7 @@ select {
 
 
 
-.bestelling-container{
+.bestelling-container {
     padding: 20px;
 }
 
@@ -438,10 +411,77 @@ select {
 }
 
 
-.film-container{
-
+.film-container {
     width: 90%;
     height: 40vh;
     border: 2px solid #9E2629;
     margin-top: 5vh;
+    display: flex;
+
+}
+
+.symbols-container {
+    display: inline-flex;
+    margin-bottom: 2vh;
+}
+
+.symbol-image2 {
+    height: 4vh;
+
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2vh;
+    color: #666666;
+
+}
+
+.movie-title2 {
+    color: #666666;
+    margin-top: 2vh;
+    font-size: 30px;
+    margin-bottom: 1vh;
+
+}
+
+#movie-image2 {
+    height: 90%;
+    margin: 2vh;
+
+}
+
+
+.gegevens {
+    padding: 20px;
+}
+
+.titel-gegevens {
+    color: #a00;
+    font-size: 24px;
+    margin-bottom: 3vh;
+
+}
+
+.name input {
+    border: 2px solid #9E2629;
+    width: 50%;
+}
+
+.email input {
+    border: 2px solid #9E2629;
+    width: 50%;
+
+
+}
+
+.titel-betaal {
+    color: #a00;
+    font-size: 24px;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+
+
 }

@@ -1,0 +1,175 @@
+.detail-body {
+    font-family: "Lato", sans-serif;
+    background-color: #000000;
+
+}
+
+
+.movie-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.movie-container {
+    width: 57.5%;
+    height: 90.5vh;
+    margin-left: 5vh;
+    background-color: #ffffff;
+
+    padding-left: 3vh;
+    padding-top: 5vh;
+}
+
+
+
+.movie-title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9e2629;
+    text-align: left;
+    align-content: center;
+    padding-left: 5vh;
+    margin-top: 10vh;
+    background-color: white;
+    width: 90%;
+    height: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+
+}
+
+
+
+
+.movie-image {
+    width: 30%;
+    display: inline-block;
+    margin-left: 10vh;
+}
+
+
+
+
+.movie-description {
+    font-size: 18px;
+    color: #666666;
+
+    font-weight: lighter;
+
+
+}
+
+
+.movie-genres {
+    font-size: 18px;
+    color: #666666;
+
+
+}
+
+
+
+
+.actor-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #666666;
+}
+
+
+.actor-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.actor-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.actor-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    margin-bottom: 10px;
+}
+
+.actor-name {
+    font-size: 16px;
+    color: #666666;
+
+}
+
+.tickets_kopen {
+    background-color: #9E2629;
+    color: white;
+    margin-left: 10vh;
+    height: 10vh;
+    width: 90%;
+    align-content: center;
+    display: block;
+    margin-top: 5vh;
+    text-align: center;
+    padding-left: 5vh;
+}
+
+.trailer {
+    width: 90%;
+    border: 6px solid #9E2629;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-bottom: 20vh;
+    
+
+
+}
+
+
+.viewing-symbol {
+    size: 20vh;
+    display: inline-block;
+
+
+
+}
+
+.movie-release-date {
+    color: #666666;
+    font-size: 40px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+
+
+}
+
+
+.movie-rating {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+    margin-top: 3vh;
+}
+
+.movie-length {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+
+}
+
+#trailer-link{
+
+    width: 100%;
+    height: 90vh;
+
+
+
+}

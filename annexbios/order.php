@@ -2,46 +2,38 @@
 include('./core/header.php');
 ?>
 
+
+
 <body class="order-body">
 
     <div class="text-header">
         <div class="top-text">TICKETS BESTELLEN</div>
     </div>
 
-    <div class="text-movie">
-        INSERT MOVIE
-    </div>
 
-    <div class="button-head">
-        <button class="butdrdwn">
-            DATUM
-            <span class="arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <polyline points="40,40 50,50 60,40" style="fill:none;stroke:#9E2629;stroke-width:4;" />
-                </svg>
-            </span>
-        </button>
-        <div class="button-head-content">
-            <a href="#">Film 1</a>
-            <a href="#">Film 2</a>
-            <a href="#">Film 3</a>
-        </div>
-    </div>
-    <div class="button-head2">
-        <button class="butdrdwn2">
-            TIJDSTIP
-            <span class="arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <polyline points="40,40 50,50 60,40" style="fill:none;stroke:#9E2629;stroke-width:4;" />
-                </svg>
-            </span>
-        </button>
-        <div class="button-head-content2">
-            <a href="#">Film 1</a>
-            <a href="#">Film 2</a>
-            <a href="#">Film 3</a>
-        </div>
-    </div>
+   
+    <?php
+    include_once 'core\php\datafetch.php';
+
+    $movies = getMovies();
+
+
+
+    if (is_array($movies["data"])) {
+        foreach ($movies["data"] as $key => $item) {
+
+
+            echo "<div class='text-movie'>" . $item['title'] . "</div>";
+            echo "<div class='text-movie'>" . $item['first_play_time'] . "</div>";
+
+
+            break;
+
+        }
+    }
+    ?>
+
+
 
     <div class="placeholder-movie">
         <img id="movie-image" src="assets\images\films\deadpool.jpg">
@@ -289,44 +281,103 @@ include('./core/header.php');
 
 
 
+
         <div class="bestelling-container">
             <div class="titel-bestelling">
                 STAP 3: CONTROLEER JE BESTELLING
             </div>
 
 
-            <div class="film-container">
-                usauandund
+
+
+
+            <?php
+
+            if (is_array($movies["data"])) {
+                foreach ($movies["data"] as $key => $item) {
+
+                    echo "<div class='film-container'>";
+                    echo "<img src='" . $item['image'] . "' alt='" . $item['title'] . "' id='movie-image2'><br>";
+                    echo "<div class='movie-info'>";
+
+                    echo "<div class='movie-title2'>" . $item['title'] . "</div>";
+
+
+                    echo "<div class='symbol-container'>";
+                    foreach ($item['viewing_guides']['symbols'] as $symbol) {
+                        echo "<div class='viewing-symbol'>";
+                        echo "<img src='" . $symbol['image'] . "' alt='" . $symbol['name'] . "' class='symbol-image2' />";
+                        echo "</div>";
+                    }
+
+
+                    echo "<div class='play-time'>Wanneer: " . $item['first_play_time'] . "</div>";
+
+                    echo "<div class='movie-release-date2'>Release: " . $item['release_date'] . "</div>";
+
+                    echo "<div class='ticket-total'>Totaal 1 ticket: €" . $item['minimum_price'] . "</div>";
+                    echo "</div>";
+                    echo "</div>";
+                    echo "</div>";
+                    echo "</div>";
+                    break;
+                }
+            } else {
+                echo "No data found.";
+            }
+
+            ?>
+
+
+
+
+
+            <div class="gegevens">
+                <div class="titel-gegevens">
+                    STAP 4: VUL JE GEGVENS IN
+                </div>
+
+                <div class="form-container">
+                    <div class="name">
+                        <input type="text" name="firstName" placeholder="Voornaam">
+                        <input type="text" name="lastName" placeholder="Achternaam*" required>
+                    </div>
+                    <div class="email">
+                        <input type="text" name="email" placeholder="E-mailadres*" required>
+                    </div>
+                </div>
+
+
+                <div class="titel-betaal">
+                    STAP 5: KIES JE BETAALWIJZE
+                </div>
+
+
+
+
+
+
+
+
             </div>
+
         </div>
-
-
-    </div>
-
-
-
-
+        <div class="text-bottom">
+            <div class="text-area-bottom">
+                AFREKENEN
+            </div>
 
 
 
-
-
-
-
-
-    <div class="text-bottom">
-        <div class="text-area-bottom">
-            AFREKENEN
         </div>
 
 
 
-    </div>
+        </div>
 
 
 
 
-    <?php
-    include('./core/footer.php');
-
-
+        <?php
+        include('./core/footer.php');
+?>
