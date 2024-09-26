@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/detail.css">
     <link rel="stylesheet" href="./assets/css/order.css">
-    <link rel="stylesheet"  href="./assets/css/detail.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
@@ -22,6 +21,8 @@
 </head>
 
 <body>
+
+
 
     <div class="grid-container">
 
@@ -51,21 +52,34 @@
             <div class="second-header">
                 <div class="h1">KOOP JE TICKETS</div>
 
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        Kies je film
-                        <span class="arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                                <polyline points="40,40 50,50 60,40" style="fill:none;stroke:white;stroke-width:4;" />
-                            </svg>
-                        </span>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Film 1</a>
-                        <a href="#">Film 2</a>
-                        <a href="#">Film 3</a>
-                    </div>
-                </div>
+               
+                <?php
+                include_once 'php\datafetch.php';
+
+                $movies = getMovies();
+
+
+
+
+
+                if (is_array($movies["data"]) && count($movies["data"]) > 0) {
+                    echo "<div class='dropdown'>";
+                    echo "<button class='dropbtn'>Kies je film</button>";
+                    echo "<div class='dropdown-content'>";
+
+                    // Loop through each movie title and create a link with the movie ID
+                    foreach ($movies["data"] as $item) {
+                        echo "<a href='detail.php?id={$item['api_id']}'>{$item['title']}</a>"; // Link to movie details page
+                    }
+
+                    echo "</div>"; // Close dropdown-content
+                    echo "</div>"; // Close dropdown
+                }
+                ?>
+
+
+
+
 
 
                 <a href="order.php">
@@ -77,7 +91,4 @@
     </div>
 
     </div>
-</div>
-
-
-
+    </div>

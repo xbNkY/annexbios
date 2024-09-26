@@ -1,4 +1,7 @@
+
+
 <?php
+
 function getMovies()
 {
     $curl = curl_init();
@@ -13,7 +16,7 @@ function getMovies()
 
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
-    curl_setopt($curl, CURLOPT_HTTPHEADER, array(
+    curl_setopt($curl, CURLOPT_HTTPHEADER, value: array(
         'Authorization:  Bearer 4d8e9f1a2b3c6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f',
         'Content-Type: application/json',
     ));
@@ -37,8 +40,3 @@ function getMovies()
 }
 
 ?>
-
-
-
-
-
