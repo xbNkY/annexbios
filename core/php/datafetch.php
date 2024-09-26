@@ -31,7 +31,7 @@ function getMovies(){
     return $decodedData;
 
 }
-
+ $movies=getMovies();
 
 
 //var_dump($movies);
