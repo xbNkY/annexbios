@@ -1,5 +1,5 @@
 <?php
-include('./php/core/header.php');
+include('./core/header.php');
 ?>
 
 
